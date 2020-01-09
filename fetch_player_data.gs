@@ -6,9 +6,9 @@
 // If you want to copy this script and use it for your own purposes, you need to replace the spreadsheet link below with
 // your own, or alternatively simply set the 'OsuApiKey' variable to a string containing your osu! API key.
 // Get your API key here: https://osu.ppy.sh/p/api
-//  var osuApiSpreadsheet = "https://docs.google.com/spreadsheets/d/1qOH-ELkgIn_LJ45hd95wHXBXEgMaZoGc_gzppVInAgI/";
-//  var osuApiKey = SpreadsheetApp.openByUrl(osuApiSpreadsheet).getActiveSheet().getRange(1,1).getValue();
-var osuApiKey = '86f22be6ca202395194afd9d2e61eb973ff56d6d'; // Currently using Mio Winter's API key.
+var osuApiSpreadsheet = "https://docs.google.com/spreadsheets/d/1qOH-ELkgIn_LJ45hd95wHXBXEgMaZoGc_gzppVInAgI/";
+var osuApiKey = SpreadsheetApp.openByUrl(osuApiSpreadsheet).getActiveSheet().getRange(1,1).getValue();
+// Currently using Mio Winter's API key.
 
 var PLAYER_COLUMN = 2;
 var OSU_STD_RANK_COLUMN = 3;
